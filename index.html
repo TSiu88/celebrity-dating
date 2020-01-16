@@ -8,9 +8,122 @@
     <title>Celebrity Dating Quiz</title>
   </head>
   <body>
-    <h1>Celebrity Dating Quiz</h1>
-    <p>See who you are most compatible with!  Enter your information below.</p>
+    <div class="container">
+      
+      <h1>Celebrity Dating Quiz</h1>
+      <p>See who you are most compatible with!  Enter your information below.</p>
+  
+      <div class="input"></div>
+        <form class="inputs">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input id="name" class="form-control" type="text">
+          </div>
 
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="age">Age Range</label>
+            <div class="radio">
+                <label>
+                  <input type="radio" name="ageRange" value="12-17">
+                  12-17
+                </label>
+              <label>
+                <input type="radio" name="ageRange" value="18-24" checked>
+                18-24
+              </label>
+              <input type="radio" name="ageRange" value="25-34">
+                25-34
+              </label>
+              <input type="radio" name="ageRange" value="35-44">
+                35-44
+              </label>
+              <input type="radio" name="ageRange" value="45-80">
+                45-80
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input id="dob" class="form-control" type="date">
+          </div>
+
+          <div class="form-group">
+            <label for="color">Favorite Color</label>
+            <input id="color" class="form-control" type="color">
+          </div>
+
+          <div class="form-group">
+            <label for="ssn">SSN</label>
+            <input id="ssn" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-info">Show Celebrity</button>
+        </form>
+      </div>
+
+      <h2>Results:</h2>
+      <div class="output">
+        <div id="pearlman">
+          <h3>You got: Ron Pearlman</h3>
+          <img src="img/pearlman.jpg" alt="Ron Pearlman">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit finibus felis, a dapibus augue. Curabitur ullamcorper feugiat odio volutpat blandit. Donec vel est aliquam neque dictum pulvinar. Praesent lorem justo, fermentum sed molestie non, interdum eget dolor. Nunc a placerat dui, sit amet mattis lectus. Mauris dapibus nunc nunc, non rutrum dolor egestas ut. Nullam vitae nisi fermentum, placerat ante id, varius metus. Sed malesuada, dolor ut venenatis egestas, dolor arcu eleifend lorem, sed fringilla metus lectus at nibh. Aliquam vulputate consequat augue at facilisis. Vestibulum a dui a nulla mattis luctus id nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+
+        <div id="hyde">
+          <h3>You got: Hyde</h3>
+          <img src="img/hyde.jpg" alt="Hyde">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit finibus felis, a dapibus augue. Curabitur ullamcorper feugiat odio volutpat blandit. Donec vel est aliquam neque dictum pulvinar. Praesent lorem justo, fermentum sed molestie non, interdum eget dolor. Nunc a placerat dui, sit amet mattis lectus. Mauris dapibus nunc nunc, non rutrum dolor egestas ut. Nullam vitae nisi fermentum, placerat ante id, varius metus. Sed malesuada, dolor ut venenatis egestas, dolor arcu eleifend lorem, sed fringilla metus lectus at nibh. Aliquam vulputate consequat augue at facilisis. Vestibulum a dui a nulla mattis luctus id nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+
+        <div id="buscemi">
+          <h3>You got: Buscemi</h3>
+          <img src="img/buscemi.jpeg" alt="Buscemi">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit finibus felis, a dapibus augue. Curabitur ullamcorper feugiat odio volutpat blandit. Donec vel est aliquam neque dictum pulvinar. Praesent lorem justo, fermentum sed molestie non, interdum eget dolor. Nunc a placerat dui, sit amet mattis lectus. Mauris dapibus nunc nunc, non rutrum dolor egestas ut. Nullam vitae nisi fermentum, placerat ante id, varius metus. Sed malesuada, dolor ut venenatis egestas, dolor arcu eleifend lorem, sed fringilla metus lectus at nibh. Aliquam vulputate consequat augue at facilisis. Vestibulum a dui a nulla mattis luctus id nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+
+        <div id="parker">
+          <h3>You got: Parker</h3>
+          <img src="img/parker.jpg" alt="Parker">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit finibus felis, a dapibus augue. Curabitur ullamcorper feugiat odio volutpat blandit. Donec vel est aliquam neque dictum pulvinar. Praesent lorem justo, fermentum sed molestie non, interdum eget dolor. Nunc a placerat dui, sit amet mattis lectus. Mauris dapibus nunc nunc, non rutrum dolor egestas ut. Nullam vitae nisi fermentum, placerat ante id, varius metus. Sed malesuada, dolor ut venenatis egestas, dolor arcu eleifend lorem, sed fringilla metus lectus at nibh. Aliquam vulputate consequat augue at facilisis. Vestibulum a dui a nulla mattis luctus id nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+
+        <div id="madonna">
+          <h3>You got: Madonna</h3>
+          <img src="img/madonna.jpg" alt="Madonna">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit finibus felis, a dapibus augue. Curabitur ullamcorper feugiat odio volutpat blandit. Donec vel est aliquam neque dictum pulvinar. Praesent lorem justo, fermentum sed molestie non, interdum eget dolor. Nunc a placerat dui, sit amet mattis lectus. Mauris dapibus nunc nunc, non rutrum dolor egestas ut. Nullam vitae nisi fermentum, placerat ante id, varius metus. Sed malesuada, dolor ut venenatis egestas, dolor arcu eleifend lorem, sed fringilla metus lectus at nibh. Aliquam vulputate consequat augue at facilisis. Vestibulum a dui a nulla mattis luctus id nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+
+        <div id="rosie">
+          <h3>You got: Rosie</h3>
+          <img src="img/rosie.jpg" alt="Rosie">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit finibus felis, a dapibus augue. Curabitur ullamcorper feugiat odio volutpat blandit. Donec vel est aliquam neque dictum pulvinar. Praesent lorem justo, fermentum sed molestie non, interdum eget dolor. Nunc a placerat dui, sit amet mattis lectus. Mauris dapibus nunc nunc, non rutrum dolor egestas ut. Nullam vitae nisi fermentum, placerat ante id, varius metus. Sed malesuada, dolor ut venenatis egestas, dolor arcu eleifend lorem, sed fringilla metus lectus at nibh. Aliquam vulputate consequat augue at facilisis. Vestibulum a dui a nulla mattis luctus id nec libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    
     
 
   </body>
